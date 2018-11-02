@@ -40,7 +40,7 @@ const correctAnswers = {
     barefootstore: "movie",
     bookname: [ "jeffrey", "pro", "foolproof" ],
     tvchannel:  "Food Network",
-    catchphrase: "fine"
+    catchphrase: "fine",
 
         // stop here - you can have more lines if yur quiz has more answers
 };
