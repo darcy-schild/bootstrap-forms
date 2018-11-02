@@ -21,12 +21,12 @@
 
           <p><a href="https://en.wikipedia.org/wiki/Ina_Garten">Wikipedia page on Ina Garten</a></p>
 
-            <form>
+            <form id="myForm" action="js/form_processor.js" method="post">
 
               <fieldset>
 
               <div class="form-group">
-                <label class="form-control-label">On a visit to visit her brother at college, Ina Garten met her now-husband, Jeffrey. Which college was this? <textarea class="form-control" name="college" rows="4" cols="30" placeholder="College name here" id="collegename"></textarea></label>
+                <label class="form-control-label">On a visit to visit her brother at college, Ina Garten met her now-husband, Jeffrey. Which college was this? <textarea class="form-control" name="jeffreycollege" rows="4" cols="30" placeholder="College name here" id="jeffreycollege"></textarea></label>
               </div>
 
               <div class="form-group">
@@ -75,7 +75,7 @@
                 <div class="form-group">
                   <label>In 1978, Garten left her job at the White House after visiting a recently closed specialty food store in Westhampton, New York. When Garten took over the store, she kept its original name — Barefoot Contessa — which later became the namesake of her cooking show. What was the store named after?</label>
 
-                    <select class="form-control" name="BarefootStore">
+                    <select class="form-control" name="barefootstore">
                         <option value="song">A Frank Sinatra song</option>
                         <option value="gatsby">The Great Gatsby</option>
                         <option value="movie">A film from the '50s</option>
@@ -124,6 +124,9 @@
                   <input type="submit" value="Submit"> <input type="reset" value="Start over">
 
                 </fieldset>
+
+                <div id="showAnswers">
+
             </form>
         </div>
       </div>
