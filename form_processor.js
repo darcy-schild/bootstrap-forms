@@ -33,13 +33,6 @@ let userAnswers = {};
 
 const correctAnswers = {
         // replace all lines below, as many or as few as you need
-    username: "Mindy",
-    emailaddress: "mindy@foobar.com",
-    telephone: "352-222-1234",
-    story: "My shoes so old they got little wheelchairs",
-    color: "silver",
-    features: [ "heels", "laces" ],
-    size: "8"
 
     jeffreycollege: "Dartmouth College",
     college: "georgewashington",
